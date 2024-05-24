@@ -1,3 +1,6 @@
+A react native app to try out react native networking features. App built using re-frame and finite state machines (uses re-statecharts and clj state chart libraries). The follows
+a state driven development methodology.
+
 # React Native using shadow-cljs in 3 minutes
 
 The fastest way a [ClojureScript](https://clojurescript.org/) coder can get started with React Native development. *Prove me wrong.*

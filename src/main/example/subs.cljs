@@ -15,3 +15,16 @@
  :navigation/root-state
  (fn [db _]
    (get-in db [:navigation :root-state])))
+
+
+(rf/reg-sub
+ ::posts
+ (fn [db _]
+   (:postLists db)))
+
+
+
+(rf/reg-sub
+ ::error
+ (fn [db _]
+   (:error db)))

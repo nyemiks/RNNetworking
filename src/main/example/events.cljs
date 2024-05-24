@@ -18,3 +18,23 @@
  :navigation/set-root-state
  (fn [db [_ navigation-root-state]]
    (assoc-in db [:navigation :root-state] navigation-root-state)))
+
+
+(rf/reg-event-db
+ ::update-posts
+ (fn [db [_ posts]]
+  (.info js/console "posts updated.")        
+          
+            (assoc db :postLists posts)
+   )
+ )
+
+
+(rf/reg-event-db
+ ::update-error
+ (fn [db [_ error]]
+  (.info js/console " update error")        
+          
+            (assoc db :error error)
+   )
+ )

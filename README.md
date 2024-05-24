@@ -1,6 +1,18 @@
 A react native app to try out react native networking features. App built using re-frame and finite state machines (uses re-statecharts and clj state chart libraries). The follows
 a state driven development methodology.
 
+This example implemented in this app is from the youtube course "React native tutorials for beginners". The networking example was implemented using core reactive features using use state hooks). No finite state machines were used. The app uses the event driven methodology. 
+
+
+https://youtu.be/V17bowbR2xs?si=XFSJ743xYPuRTF0E
+
+The goal of this project was to 
+
+1. contrast the way an app is built using finite state machines and app that is not built with finite state machines.
+2. Compare difference between using re-frame and state machines compared to using core react native.
+
+
+
 # React Native using shadow-cljs in 3 minutes
 
 The fastest way a [ClojureScript](https://clojurescript.org/) coder can get started with React Native development. *Prove me wrong.*
